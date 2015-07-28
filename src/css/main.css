@@ -8,14 +8,14 @@ body {
     background: url("../img/header.jpg");
     background-size:100%;
     width:1200px;
-    height:170px;
+    height:250px;
     margin: 100px auto 0 auto;
 }
 .header h1{
     font-size:30px;
     color: #ffffff;
     text-align: center;
-    margin:-86px;
+    margin:-74px;
 
 }
 /**/
@@ -31,15 +31,12 @@ body {
     border: 3px solid #ffffff;
 }
 
-#nav{
-    width:1200px;
-    margin: 0 auto;
-    height: 80px;
-    background: #000000;
-}
+
 
 #nav ul{
-
+    position:relative;
+    top:120px;
+    text-align: center;
     margin: 0 auto;
 
 
@@ -49,6 +46,185 @@ body {
     display: inline-block;
     font-size: 30px;
     color: #ffffff;
-    margin: 0 10px;
+    margin: 0 92px;
     list-style: none;
+    line-height: 84px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#nav li a:hover{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+#nav li a.active{
+    text-decoration: none;
+    color: dodgerblue;
+
+}
+
+.content {
+
+    width:1200px;
+    margin: 0 auto;
+    padding: 70px 0px;
+    background: #ffffff;
+}
+
+.introduce ,.exp,.photo,.touch,.message{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.line{
+    margin: 0 auto;
+    background: #000000;
+    width:100px;
+    height:5px;
+}
+
+h1.small{
+    font-style: italic;
+}
+
+em {
+
+    font-size: 15px;
+    line-height: 1;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    color: #888888;
+
+}
+
+.block1 {
+    width: 330px;
+    margin: 5px;
+    display: inline-block;
+    font-family: Monaco, "Lucida Console", monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.photo .block1{
+    width: 260px;
+    margin: 5px;
+    display: inline-block;
+    font-family: Monaco, "Lucida Console", monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.block1_ {
+    width: 250px;
+    margin: 5px;
+    display: inline-block;
+    font-family: Monaco, "Lucida Console", monospace;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+
+.block2{
+    width:890px;
+    padding: 0px;
+    margin:5px;
+    font-family: Monaco, "Lucida Console", monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.block2_0 {
+    position: relative;
+    left: 28px;
+    top: -6px;
+    width:500px;
+    margin: 0;
+
+}
+
+.block2_{
+    margin: 0;
+    position: relative;
+    width:600px;
+    top: -242px;
+    left: 436px;
+}
+
+
+.block2_1,.block2_2,.block2_3{
+    display: block;
+    text-align: left;
+    margin: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+.block2_1 h6{
+    color: #888888;
+    font-weight: bold;
+    margin: 0;
+}
+
+.exp img{
+    width:280px;
+    height:280px;
+}
+
+.message input{
+    margin: 5px;
+    width:425px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.message form{
+    margin: 100px ;
+    text-align: center;
+
+}
+
+.message textarea{
+    height: 100px;
+    border-radius: 5px;
+}
+
+.font {
+    font-family: sans-serif;
+    color: #888888;
+}
+
+button{
+    background: rgba(226, 197, 10, 0.95);
+    color: white;
+    width: 400px;
+    height:50px;
+    border-radius: 90px;
+    border: none;
+    font-size: 20px;
+    margin: 20px auto;
+
+}
+
+button:hover{
+    background: rgba(203, 176, 6, 0.95);
+    color: white;
+    width: 400px;
+    height:50px;
+    border-radius: 90px;
+    border: none;
+    font-size: 20px;
+    margin: 20px auto;
+
 }
